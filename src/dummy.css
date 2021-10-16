@@ -1,0 +1,268 @@
+body {
+  width: auto;
+  height: auto;
+  
+
+  background-color: #F5F5F5;
+  background-image: url("resources/spline.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mediaViewInfo {
+  --web-view-name: Web leaderboard – 1;
+  --web-view-id: Web_leaderboard__1;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: Web_leaderboard__1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#Web_leaderboard__1 {
+  background-color: rgba(245, 245, 245, 1);
+  overflow: hidden;
+  --web-view-name: Web leaderboard – 1;
+  --web-view-id: Web_leaderboard__1;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+#Path_8 {
+  opacity: 0.05;
+  fill: transparent;
+  stroke: rgb(16, 102, 241);
+  stroke-width: 7px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Path_8 {
+  overflow: visible;
+  position: absolute;
+  width: 2176.483px;
+  height: 1734.955px;
+  left: -66.021px;
+  top: 155.855px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Ellipse_2 {
+  opacity: 0.05;
+  fill: rgb(38, 113, 235);
+}
+.Ellipse_2 {
+  position: absolute;
+  overflow: visible;
+  width: 928px;
+  height: 928px;
+  left: -587px;
+  top: 277px;
+}
+#Path_7 {
+  opacity: 0.1;
+  fill: rgba(251, 188, 4, 1);
+}
+.Path_7 {
+  overflow: visible;
+  position: absolute;
+  width: 477px;
+  height: 477px;
+  left: 1777px;
+  top: 186px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Ellipse_4 {
+  opacity: 0.09;
+  fill: rgba(129, 199, 132, 1);
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Ellipse_4 {
+  position: absolute;
+  overflow: visible;
+  width: 379px;
+  height: 379px;
+  left: 1737px;
+  top: 1298px;
+}
+#Ellipse_6 {
+  opacity: 0.05;
+  fill: rgb(228, 39, 22);
+}
+.Ellipse_6 {
+  position: absolute;
+  overflow: visible;
+  width: 174px;
+  height: 174px;
+  left: 1147px;
+  top: -71.332px;
+}
+#Polygon_1 {
+  opacity: 0.14;
+  fill: rgb(221, 33, 16);
+}
+.Polygon_1 {
+  overflow: visible;
+  position: absolute;
+  width: 533px;
+  height: 462px;
+  transform: matrix(1, 0, 0, 1, 1772.0004, 268.6084) rotate(62deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+#Rectangle_2 {
+  opacity: 0.05;
+  fill: rgb(236, 30, 11);
+}
+.Rectangle_2 {
+  width: 291.109px;
+  height: 323.831px;
+  position: absolute;
+  overflow: visible;
+  transform: matrix(1, 0, 0, 1, -33.7419, 1448.0371) rotate(36deg);
+  transform-origin: center;
+}
+#Rectangle_4 {
+  fill: transparent;
+}
+.Rectangle_4 {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 160px;
+  left: 0px;
+  top: 0px;
+}
+#Group_1 {
+  position: absolute;
+  width: 1005px;
+  height: 312px;
+  left: 447px;
+  top: 171px;
+  overflow: visible;
+}
+#Rectangle_9 {
+  fill: rgba(255, 255, 255, 1);
+}
+.Rectangle_9 {
+  filter: drop-shadow(8px 10px 18px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  overflow: visible;
+  width: 1059px;
+  height: 366px;
+  left: 0px;
+  top: 0px;
+}
+#gdsc{
+  width: 500px;
+}
+#gdsc img {
+  float: left;
+  margin-top: 100px;
+  padding-top: 10px;
+  width: 1800px;
+  height: 350px;
+  
+}
+#gdsc span {
+  padding-top: 10px;
+  
+ 
+}
+#span2 {
+  padding-top: 140px;
+  font-size: 1.4cm;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 170px;
+}
+#span1 {
+  font-size: 2.1cm;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(97, 89, 89);
+  padding-top: 10px;
+}
+#discord {
+  padding: 20px;
+  float: right;
+  font-size: 1.8cm;
+  background-color: #7289DA;
+  border-radius: 80px;
+  margin-right: 8cm;
+  margin-top: 120px;
+  
+}
+#viewEvents {
+  float: right;
+  font-size: 1.8cm;
+  background-color: #4285F4;
+  padding: 20px;
+  border-radius: 60px;
+  margin-top: 60px;
+  margin-right: 2cm;
+  margin-left: 35cm;
+}
+
+#discord a,#viewEvents a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  
+ 
+}
+#cloud_logo {
+  border: 10px;
+  border-radius: 3cm;
+  margin-left: 42cm;
+  /*margin-right: 25cm;*/
+  margin-top: 10cm;
+  width: 85cm;
+  height: 24cm;
+  padding: 3cm;
+  background-color: white;
+ 
+  opacity: 1;
+  
+
+
+color: #707070;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 15px 115px;
+}
+#cloud_logo img {
+  width: 780px;
+  height: 450px;
+  margin-top: 30px;
+}
+#cloud_logo p {
+  font-size: 1.7cm;
+}
+#cloud_logo span {
+    font-size: 2.2cm;
+    font-style: italic;
+  }
+#title{
+  padding-left: 32cm;
+}
+#yellow{
+    color:#FBBC04;
+    font-size: larger;
+}
+#red{
+    color: #EA4335;
+}
+#blue{
+    color: #4285F4;
+}
+#green{
+    color:#34A853;
+}
