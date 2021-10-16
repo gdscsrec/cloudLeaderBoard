@@ -25,7 +25,7 @@ export default function Footer(){
                <a href="https://www.linkedin.com/in/varniha-s-6a7232222" target="_blank">Varniha</a> 
                <a href="https://www.linkedin.com/in/geetha-palanisamy-b2323b193" target="_blank">Geetha</a> 
           </div>
-          <p className="gdsc">Google Developer Student Clubs :)</p>
+          <p className="gdsc">Google Developer Student Club :)</p>
 
       </div>
 

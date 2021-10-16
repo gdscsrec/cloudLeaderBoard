@@ -1,5 +1,5 @@
 import React from 'react';
-import JSONDATA from './resources/itemsdata.json';
+import JSONDATA from './resources/rank.json';
 import { useState } from 'react';
 import './searchstyle.css';
 
