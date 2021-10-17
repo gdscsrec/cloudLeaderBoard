@@ -37,7 +37,7 @@ function SearchandTable() {
           if (searchName == '') {
             flag=0;
             return val;
-          }  if ( val['StudentName'].toLowerCase().includes(searchName.toLowerCase())) {
+          }else if ( val['StudentName'].toLowerCase().includes(searchName.toLowerCase())) {
               flag=1;
             return val;
           }

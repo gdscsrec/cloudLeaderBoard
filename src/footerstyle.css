@@ -31,10 +31,9 @@
 .quick-links{
 
     color: #4285F4;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    grid-gap: 1px;
+    display: block;
     
+    justify-content: center;
     margin: auto;
     padding-bottom: 4px;
 }
@@ -48,9 +47,20 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex: 0 0 calc(20% - 40px);
+    flex: 0 0 calc(20% - 50px);
 }
 .gdsc{
     background-color: whitesmoke;
     font-size: 12px;
+}
+@media (max-width:610px){
+    .quick-links{
+        color: #4285F4;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-gap: 1px;
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 4px;
+    }
 }
