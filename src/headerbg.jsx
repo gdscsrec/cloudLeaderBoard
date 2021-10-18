@@ -19,11 +19,11 @@ export default function headerbg(){
         </div></div> 
         <div className="mainh">
         <div id="cloud_logo">
-          <img src={cloudlogo} style={{float: 'left'}} width="20%"/>
-          <p id="title"><span id="yellow">30 </span><span id="green">Days</span> <span id="blue">Of</span><span id="red"> GCloud</span></p><br/>
+          <img src={cloudlogo} style={{float: 'left'}} width="18%"/>
+          <p id="title"><span id="yellow">30 </span><span id="green">Days</span> <span id="blue">Of</span><span id="red"> Google Cloud</span></p><br/>
           <p className="content">You will learn practice concepts like computing, application development, big data machine learning using cloud if you get stuck, you will have your "Campus Facilitators" who are specially trained on Google Cloud to help. </p>
           <nav id="viewEvents"> 
-            <a href="#" id="active"><i>View Event</i>&nbsp;&nbsp;<i className="fas fa-angle-right" /></a>
+            <a href="https://events.withgoogle.com/30daysofgooglecloud/" id="active"><i>View Event</i>&nbsp;&nbsp;<i className="fas fa-angle-right" /></a>
           </nav>
           </div>
         </div>

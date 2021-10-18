@@ -1,12 +1,11 @@
 let fs = require('fs');
 let csvToJson = require('convert-csv-to-json');
-let fileInputName = __dirname + '/test.csv'; 
-let fileoutputName="rank.json"
+let fileInputName = __dirname + '/src/resources/rank.csv'; 
+let fileoutputName=__dirname + '/src/resources/rank.json';
 var i=0;
-
 function CSVtoJSON(){
-    let jsondata =csvToJson.formatValueByType().getJsonFromCsv(fileInputName);
-    //console.log(json1[0]["#ofSkillBadgesCompletedinTrack1"]);
+    let jsondata =csvToJson.fieldDelimiter(",").formatValueByType().getJsonFromCsv(fileInputName);
+    
     jsondata.forEach(element => {
         element["total"]=element["#ofSkillBadgesCompletedinTrack1"]+element["#ofSkillBadgesCompletedinTrack2"]
         //console.log(element["#ofSkillBadgesCompletedinTrack1"]+element["#ofSkillBadgesCompletedinTrack2"])
@@ -15,17 +14,17 @@ function CSVtoJSON(){
     var curtot=0;
     jsondata.forEach(element => {
         if(curtot==element["total"]){
-            element["rank"]="=";
+            element["rank"]=i.toString();
         }
         else{
             i=i+1;
             curtot=element["total"];
             element["rank"]=i.toString();
         }
-        element["realrank"]=i;
-        console.log(element["realrank"])
+        console.log(jsondata[0]["StudentName"]);
     });
-    fs.writeFile( fileoutputName,JSON.stringify(jsondata),function(err) {
+    
+    fs.writeFile( fileoutputName,(JSON.stringify(jsondata)),function(err) {
         if (err) throw err;
             // if no error
         console.log("Data is written to file successfully.");

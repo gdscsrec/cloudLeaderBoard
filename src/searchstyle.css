@@ -21,8 +21,9 @@
   display: flex;
   flex-direction: column;
   font-size: 15px;
-  height: 520px;
+  height: 530px;
   color: #878787;
+  margin-bottom: 10px;
   background-color: transparent;
 }
 .table .thead {
@@ -94,7 +95,7 @@ p {
   .table {
     width: 90vw;
     font-size: 30px;
-    height: 570px;
+    height: 540px;
     /* padding-bottom: 30px; */
   }
   .table .thead {

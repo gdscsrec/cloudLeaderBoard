@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .premain{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 100vw;
+    min-height: 100vh;
+    align-items:center ;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  .preloader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .logo {
+    margin-bottom: 30px;
+  }
+  .logo img {
+    width: 80%;
+    animation: init 0.1s 0s linear forwards ;
+  }
+  
+  .loading {
+    background-color: transparent;
+    position: relative;
+    justify-content: center;
+    height: 75px;
+    width: 300px;
+    align-items: center;
+    padding: 10px;
+  }
+  .loading .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 3px;
+    position: absolute;
+  }
+  .blue {
+    background-color: #4285f4;
+    left: 20%;
+    bottom: 10%;
+    animation: top 0.3s 0.1s ease-out forwards,down 0.3s 0.4s ease-in forwards,
+    shake 0.3s 0.7s linear,shake2 0.3s 1.0s ease-in;
+  }
+  .yellow {
+    background-color: #fbbc04;
+    left: 35%;
+    bottom: 10%;
+    animation: top 0.3s 0.2s ease-out forwards,down 0.3s 0.5s ease-in forwards,
+    shake 0.3s 0.8s linear,shake2 0.3s 1.1s ease-in;
+  }
+  .green {
+    background-color: #0f9d58;
+    left: 50%;
+    bottom: 10%;
+    animation: top 0.3s 0.4s ease-out forwards,down 0.3s 0.7s ease-in forwards,
+    shake 0.3s 1.0s linear,shake2 0.3s 1.3s ease-in;
+  }
+  .red {
+    background-color: #ea4335;
+    left: 65%;
+    bottom: 10%;
+    animation: top 0.3s 0.5s ease-out forwards,down 0.3s 0.8s ease-in forwards,
+    shake 0.3s 1.1s linear,shake2 0.2s 1.4s ease-in;
+  }
+  @keyframes init{
+    100%{
+      width: 80%;
+    }
+  }
+
+  @keyframes top {
+    100% {
+      bottom: 80%;
+    }
+  }
+  @keyframes down {
+    100% {
+      bottom: 10%;
+    }
+  }
+  @keyframes shake {
+    0%,
+    100% {
+      bottom: 10%;
+    }
+    50% {
+      bottom: 30%;
+    }
+  }
+  @keyframes shake2{
+    0%,
+    100% {
+      bottom: 10%;
+    }
+    50% {
+      bottom: 15%;
+    }
+  }
+ 

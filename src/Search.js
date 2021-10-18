@@ -11,7 +11,7 @@ function SearchandTable() {
       <input
         type="text"
         className="search"
-        placeholder="Search..."
+        placeholder="Search your name"
         onChange={(event) => {
           setSearchName(event.target.value);
         }}
@@ -33,20 +33,23 @@ function SearchandTable() {
         </section>
       </section>
       <div className="tbody">
-        {JSONDATA.filter((val) => {
-          if (searchName == '') {
-            flag=0;
-            return val;
-          }else if ( val['StudentName'].toLowerCase().includes(searchName.toLowerCase())) {
-              flag=1;
-            return val;
-          }
+        {JSONDATA.slice(0,(searchName.trim()===""?10:JSONDATA.length)).filter((val,i) => {
+          // if (searchName == '') {
+          //   flag=0;
+          //   return val;
+          // }else if ( val['StudentName'].toLowerCase().includes(searchName.toLowerCase())) {
+          //     flag=1;
+          //     console.log(i)
+          //   return val;
+          // }
+          return val['StudentName'].toLowerCase().includes(searchName.toLowerCase());
+          
         }).map((val, key) => {
   
           return (
             <div className="user row" key={key} style={{ display: 'flex' }}>
               <p className="Rank">
-                <i>{(flag==0)?val['rank']:val['realrank']}</i>
+                <i>{val['rank']}</i>
               </p>
               <p className="stdname" id="stdname">
                 <i>{val['StudentName']}</i>
