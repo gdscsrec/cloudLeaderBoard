@@ -9,10 +9,10 @@ export default function Footer(){
     return (
         <div className="foter">
           <div className="social-links">
-              <a href="#"><Icon icon="brandico:linkedin" color="white"  width="20"/></a>
-              <a href="#"><Icon icon="akar-icons:discord-fill" color="white"  width="20"/></a>
-              <a href="#"><Icon icon="cib:instagram" color="white" width="20" /></a>
-              <a href="#"><img src={ICond} alt="GDSC" width="34" height="18"/></a>
+              <a href="https://www.linkedin.com/company/gdscsrec/"><Icon icon="brandico:linkedin" color="white"  width="20"/></a>
+              <a href="http://discord.io/gdscsrec"><Icon icon="akar-icons:discord-fill" color="white"  width="20"/></a>
+              <a href="https://www.instagram.com/gdscsrec/"><Icon icon="cib:instagram" color="white" width="20" /></a>
+              <a href="https://gdsc.community.dev/sri-ramakrishna-engineering-college-coimbatore/"><img src={ICond} alt="GDSC" width="34" height="18"/></a>
             </div>
             <h2 className="dwheart"> Developed with ❤️ by </h2>
 
