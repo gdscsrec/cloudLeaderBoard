@@ -18,7 +18,7 @@ export default function Footer(){
 
           <div className="quick-links">
                <a href="https://www.linkedin.com/in/sanjaydevtech" target="_blank">Sanjay</a> 
-               <a href="https://www.linkedin.com/in/jayasakthi-balaji-g 337128204" target="_blank">Jayasakthi Balaji</a> 
+               <a href="https://www.linkedin.com/in/jayasakthi-balaji-g-337128204" target="_blank">Jayasakthi Balaji</a> 
                <a href="https://www.linkedin.com/in/harifbx" target="_blank">Hari Krishna</a> 
                <a href="http://www.linkedin.com/in/mohamedfazil17" target="_blank">Mohamed Fazil</a> 
                <a href="https://www.linkedin.com/in/jaswanth-solai-ba49b3191" target="_blank">Jaswanth Solai</a> 
