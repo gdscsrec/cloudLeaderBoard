@@ -11,7 +11,7 @@ function SearchandTable() {
       <input
         type="text"
         className="search"
-        placeholder="Search...."
+        placeholder="Search..."
         onChange={(event) => {
           setSearchName(event.target.value);
         }}
