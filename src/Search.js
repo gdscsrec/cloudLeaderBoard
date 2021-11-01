@@ -5,7 +5,7 @@ import './searchstyle.css';
 
 function SearchandTable() {
   const [searchName, setSearchName] = useState('');
-  var flag;
+
   return (
     <div className="table">
       <input
@@ -70,5 +70,4 @@ function SearchandTable() {
     
   );
 }
-
 export default SearchandTable;
